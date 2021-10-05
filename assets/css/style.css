@@ -1,0 +1,217 @@
+
+.font-size_14{
+    font-size: 14px;
+    font-family: 'montserratbold';
+}
+.font-size_12{
+    font-size: 12px;
+    font-family: 'montserratblack';
+}
+.font-size_16{
+    font-size: 16px;
+}
+.font-size_16_bold{
+    font-size: 16px;
+    font-family: 'montserratbold';
+}
+.font-size_31{
+    font-size: 31px;
+    font-family: 'montserratbold';
+}
+.font-size_21{
+    font-size: 21px;
+}
+.font-size_21-bold{
+    font-family: 'montserratbold';
+    font-size: 21px;
+}
+.font-21-color{
+    color: #666666;
+}
+.font-size_45{
+    font-size: 45px;
+    font-family: 'montserratbold';
+}
+.font-size_48{
+    font-size: 48px;
+    font-family: 'montserratsemibold';
+}
+.theme-color{
+    color: #fde428;
+}
+.blue-bg{
+    background-color:#002e5b;
+}
+.blue-color{
+    color: #002e5b;
+}
+.padding90-t-b{
+    padding: 120px 0;
+}
+
+
+/*================Navbar==============*/
+.navbar-nav .nav-link {
+    font-size: 14px;
+    font-family: 'montserratregular';
+    color: #ffffff;
+}
+.logo .own-your-course{
+    position: absolute;
+    top: 58px;
+    letter-spacing: 4px;
+    color: white;
+}
+.nav-lang img{
+    border-radius: 100%;
+}
+.navbar-toggler{
+ background-color: #fde428 !important;
+}
+
+.navbar-nav li .nav-link{
+    font-size: 16px;
+    padding-top: 18px;
+}
+.navbar-nav .nav-item:after,
+.navbar-nav .nav-item:before {
+    transition: all .5s;
+}
+.navbar-nav .nav-item{
+    position: relative;
+}
+.navbar-nav .nav-item:after{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    border-bottom: 3px solid #fde428;
+    height: 2px;
+}
+.navbar-nav .nav-item:hover:after {
+    width: 100%;
+}
+/*==================Slider==================*/
+.carousel-item{
+    height: 500px;
+}
+.slider-lrn-more{
+    position: absolute;
+    top: 55%;
+    right: 230px;
+}
+.slider-lrn-more a:hover{
+    color: #fde428;
+}
+.yellow-border-box{
+    width: 300px;
+    height: 400px;
+    border: 8px solid #fde428;
+}
+.slider-content{
+    font-family: 'montserratbold';
+    background-color: transparent;
+    padding: 5px 0 8px 0;
+    line-height: 50px;
+    text-align: right;
+    font-size: 51px;
+    position: absolute;
+    top: 15%;
+    right: 150px;
+}
+
+/*==================box1-content================*/
+.yellow-box{
+    background-color: #fde428;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 524px;
+    width: 270px;
+}
+.yellow-box-img{
+    position: absolute;
+    box-shadow: 0px 4px 4px -2px;
+}
+.head-bg{
+    background-image: url('../images/menu-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    z-index: 999;
+    position: relative;
+    /*height: 500px;*/
+    color: white;
+}
+
+
+/*==================box2-content======================*/
+.bg-gray{
+    background-color: #f4f4f4;
+}
+.achive-space{
+    letter-spacing: 8px;
+}
+/*=================contact Now section===============*/
+.blue-bg .contact-btn{
+    background-color: #fde428;
+    font-family: 'montserratbold';
+
+}
+/*===============achive-section=============*/
+.achive-section{
+    background-image: url("../images/achievement.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+}
+.blue-transparent-bg section{
+    background-color: rgba(0,46,91,0.72);
+}
+/*================Testimonials==================*/
+.testimonial-section{
+    background-image: url("../images/testimonial-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.blue-transparent-bg section{
+    background-color: rgba(0,46,91,0.72);
+}
+.name-line{
+    position: relative;
+    padding: 0 10px;
+}
+.name-line:before{
+    content: '';
+    display: block;
+    width: 30px;
+    position: absolute;
+    height: 2px;
+    top: 50%;
+    left: 40%;
+    background-color: white;
+}
+.name-line:after{
+    content: '';
+    display: block;
+    width: 30px;
+    position: absolute;
+    height: 2px;
+    top: 50%;
+    right: 40%;
+    background-color: white;
+}
+/*-------------------Contact with us=================*/
+.map-box{
+    box-shadow: 0px 4px 4px -2px;
+}
+
+/*=============footer=============*/
+.social-icons i:hover{
+    color: #fde428 !important;
+}
